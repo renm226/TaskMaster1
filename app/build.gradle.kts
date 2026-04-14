@@ -57,4 +57,12 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    <<<<<<< HEAD
+    ====== =
+
+    // Test dependencies
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    >>>>>>> 0eeadc1e81878252c619722c7cc7f0f48ead7d26
 }
